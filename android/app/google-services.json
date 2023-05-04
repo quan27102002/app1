@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "616562348078",
+    "project_id": "deep-timer-354200",
+    "storage_bucket": "deep-timer-354200.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616562348078:android:b46aadb7e50d0c3aed4fbf",
+        "android_client_info": {
+          "package_name": "com.example.clone_myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616562348078-k7refrj6htuk39dcocebkpbn0vvmlbd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTyv-ssPnOGX0Q8oBtzrDhXGkVDlHiUWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616562348078-k7refrj6htuk39dcocebkpbn0vvmlbd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
