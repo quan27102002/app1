@@ -1,4 +1,5 @@
 import 'package:clone_myapp/modules/auth/widgets/auth_title.dart';
+import 'package:clone_myapp/modules/auth/widgets/content_product.dart';
 import 'package:clone_myapp/modules/auth/widgets/favorite.dart';
 import 'package:clone_myapp/modules/auth/widgets/header_product.dart';
 import 'package:clone_myapp/modules/auth/widgets/login_form.dart';
@@ -18,28 +19,26 @@ class Product extends StatelessWidget {
         children: [
           _buildBackGround(),
           Column(
-            children: [
-              HeaderProduct(),
-              Favorite()
-            ],
+            children: [HeaderProduct(), Favorite(), ContentProduct()],
           ),
-          
-          
         ],
       ),
     );
   }
 
   Widget _buildBackGround() {
-    return Container(
+    return SizedBox(
       child: Container(
-        width: double.maxFinite,
-        height: 500,
-        decoration: BoxDecoration(
-          image: DecorationImage(
-              fit: BoxFit.cover, image: AssetImage('assets/images/title.png')),
-          borderRadius: BorderRadius.all(Radius.circular(35.0)),
-          color: Colors.redAccent,
+        child: Container(
+          width: double.maxFinite,
+          height: 500,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage('assets/images/title.png')),
+            borderRadius: BorderRadius.all(Radius.circular(25.0)),
+            color: Colors.redAccent,
+          ),
         ),
       ),
     );

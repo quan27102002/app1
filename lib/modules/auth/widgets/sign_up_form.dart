@@ -66,14 +66,14 @@ class SignUpForm extends StatelessWidget {
                 child: SizedBox(),
               ),
               SsoItem(
-                link: 'assets/images/google.png',
+                link: 'assets/images/apple.png',
                 onPessed: () {},
               ),
               Expanded(
                 flex: 1,
                 child: SizedBox(),
               ),
-              SsoItem(link: 'assets/images/google.png', onPessed: () {}),
+              SsoItem(link: 'assets/images/facebook.png', onPessed: () {}),
               Expanded(
                 flex: 2,
                 child: SizedBox(),

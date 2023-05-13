@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 
-
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
@@ -24,7 +23,6 @@ class LoginScreen extends StatelessWidget {
                   child: AuthTitle(
                     title: 'Welcome',
                     subTitle: 'Hello, let sign into your account!',
-                    
                   ),
                 ),
                 LoginForm()
@@ -46,7 +44,7 @@ class LoginScreen extends StatelessWidget {
         child: Align(
           alignment: Alignment.topLeft,
           child: AspectRatio(
-              aspectRatio: 390 / 150,
+              aspectRatio: 390 / 200,
               child: Image.asset(
                 'assets/images/login.png',
                 fit: BoxFit.fill,
